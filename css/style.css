@@ -1,0 +1,59 @@
+h1 {
+    display : block;
+    text-align: center;
+    border-radius:  9px;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: rgba(129, 105, 238, 0.733);
+    color: #ffffff;
+}
+
+table {
+    left: 0;
+    width: 96%;
+}
+tr {
+    display:list-item;
+    list-style-type: none; 
+    margin: 9px;
+    width: 100%;
+    background: rgba(129, 105, 238, 0.781);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+th.rank,td.rank {
+    width: 15%;
+}
+th.name,td.name {
+    width: 53%;
+}
+th.money,td.money {
+    width: 10%;
+}
+td.rank {
+    font-weight: bold;
+    font-style: italic;
+}
+th, td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: #b9b9b97c;
+    border-radius: 35px;
+    height: 30px;
+    margin: 5px 2px;
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+}
+
+tr.head {
+    background-color: #ffffff;
+}
+
+div.container-rank {
+    background-color: #c8c0f3fd;
+    padding: 5px 15px 5px 5px;
+    border-radius: 9px;
+}
